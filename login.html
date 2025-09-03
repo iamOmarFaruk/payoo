@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Payoo - Login</title>
+    <!-- Tailwind CSS (for quick layout + spacing) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="global.css">
+    </head>
+    <body class="min-h-screen flex items-start justify-center pt-12">
+    
+
+        <!-- Content panel -->
+        <main class="w-full">
+            <section class="max-w-lg mx-auto px-5">
+                <div class="arc-wrap">
+                    <img src="assets/Group.png" alt="logo" class="arc-logo" />
+                </div>
+                <div class="panel px-6 py-7 sm:px-8 sm:py-8">
+                    <form class="space-y-6" action="#" method="post">
+                        <div>
+                            <label for="mobileNumber" class="text-label block mb-2">Mobile Number</label>
+                            <input id="mobileNumber" name="mobileNumber" type="tel" placeholder="Enter your number" class="field" />
+                        </div>
+
+                        <div>
+                            <label for="pin" class="text-label block mb-2">4 Digit Pin</label>
+                            <input id="pin" name="pin" type="password" inputmode="numeric" placeholder="Enter 4 Digit Pin" class="field" />
+                        </div>
+
+                        <div class="pt-2">
+                            <button type="button" class="btn-primary">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </body>
+ </html>
